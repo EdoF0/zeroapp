@@ -31,7 +31,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
-  String? _result = 'Push the button to run your function';
+  String? _result = initialMessage;
 
   void _runMyMain() {
     setState(() {
@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _runMyMain,
-        tooltip: 'Increment',
+        tooltip: 'Run myMain function',
         child: const Icon(Icons.add),
       ),
     );
