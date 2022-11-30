@@ -1,7 +1,8 @@
 # Exercise 1
 
 For this exercise, work on the file `lib/learndart.dart`.
-The objective is to print the number of times you pushed the button in the app.
+
+Print the number of times you pushed the button in the app with a user-friendly message.
 
 Tips
 
